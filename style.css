@@ -1,0 +1,32 @@
+body.light {
+  background-color: #fff;
+  color: #000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+body.dark .card {
+  background-color: #1e1e1e;
+}
